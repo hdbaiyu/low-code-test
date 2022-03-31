@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { useAppSelector, useAppDispatch } from '../../../app/hooks';
+import { useAppSelector, useAppDispatch } from '../../store/hooks';
 import { useDrop, useDrag } from 'react-dnd';
 import { getEmptyImage } from 'react-dnd-html5-backend';
 import cl from 'classnames';
@@ -8,7 +8,7 @@ import {
   setFocus,
   removeCom,
   FieldNodeSchema,
-} from '../../../app/codeTreeSlice';
+} from '../../store/codeTreeSlice';
 import { TREEITEM } from '../ItemTypes';
 import { isParentNode } from '../schema/utils';
 

@@ -1,9 +1,9 @@
 import React, { ReactNode } from 'react';
-import { traverse } from '../../../utils';
+import { traverse } from '../../utils';
 import { fields } from './fields';
 import editFields from '../schema/edit';
-import { FieldNodeSchema, updateTree } from '../../../app/codeTreeSlice';
-import { useAppDispatch, useAppSelector } from '../../../app/hooks';
+import { FieldNodeSchema, updateTree } from '../../store/codeTreeSlice';
+import { useAppDispatch, useAppSelector } from '../../store/hooks';
 import { Field } from '../schema/types';
 
 export default function Right() {

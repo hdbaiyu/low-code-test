@@ -1,4 +1,6 @@
 import './App.css'
+import './styles/index.css'
+import 'antd/dist/antd.css'
 import Editor from './editor'
 
 function App() {

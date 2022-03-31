@@ -92,6 +92,10 @@ export const icons = {
 export default function Left(): ReactElement {
   const [type, setType] = useState('basic')
   const fields = menus.find((menu) => menu.key === type)
+  console.log('menus', menus);
+  console.log('fields',fields);
+  
+  
   return (
     <div className="w-60 flex">
       <div className="w-20 overscroll-y-auto flex flex-col items-center">

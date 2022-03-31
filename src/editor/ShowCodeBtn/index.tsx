@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { message, Modal } from 'antd';
 import AceEditor from 'react-ace';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import { useAppSelector } from '../../../app/hooks';
+import { useAppSelector } from '../../store/hooks';
 import { generateCode } from './generateCode';
 import JSZip from 'jszip';
 import 'ace-builds/src-noconflict/mode-jsx';

@@ -4,7 +4,7 @@ import { CRAD } from '../ItemTypes';
 import { useDrag } from 'react-dnd';
 import { v1 as uuid } from 'uuid';
 import { getEmptyImage } from 'react-dnd-html5-backend';
-import { FieldNodeSchema } from '../../../app/codeTreeSlice';
+import { FieldNodeSchema } from '../../store/codeTreeSlice';
 import { FieldNode } from '../schema/types';
 
 export default function DragItem({

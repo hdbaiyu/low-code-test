@@ -1,11 +1,11 @@
 import React, { ReactElement, useState } from 'react';
 import { message, Modal } from 'antd';
 import { useForm } from 'react-hook-form';
-import { useRouter } from 'next/router';
+import { useRouter } from 'react-router-dom';
 import { useAsyncFn } from 'react-use';
 import cl from 'classnames';
 
-import { useAppStore } from '../../../app/hooks';
+import { useAppStore } from '../../store/hooks';
 import axios from 'axios';
 
 interface Props {}

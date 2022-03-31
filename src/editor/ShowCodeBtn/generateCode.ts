@@ -1,5 +1,5 @@
 import { isArray, isString, map, cloneDeep } from 'lodash';
-import { State } from '../../../app/codeTreeSlice';
+import { State } from '../../store/codeTreeSlice';
 
 const getChildrenCode = (sub: State) => {
   if (sub.type === 'select') {

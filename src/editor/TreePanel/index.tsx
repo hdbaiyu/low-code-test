@@ -1,6 +1,6 @@
 import React from 'react';
-import { useAppDispatch, useAppSelector } from '../../../app/hooks';
-import { append, moveCom, FieldNodeSchema } from '../../../app/codeTreeSlice';
+import { useAppDispatch, useAppSelector } from '../../store/hooks';
+import { append, moveCom, FieldNodeSchema } from '../../store/codeTreeSlice';
 import { TREEITEM } from '../ItemTypes';
 import { useDrop } from 'react-dnd';
 import Item from './Item';
