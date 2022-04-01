@@ -247,7 +247,42 @@ const editFields: Record<string, Field[]> = {
       name: '线条粗细',
       type: 'Number',
     },
+    
   ],
+  Divider: [
+    {
+      key: 'children',
+      name: '嵌套的标题',
+      type: 'Text',
+    },
+    {
+      key: 'type',
+      name: '位置',
+      type: 'Radio',
+      options: [
+        {
+          value: 'horizontal',
+          label: '水平',
+        },
+        {
+          value: 'vertical',
+          label: '垂直',
+        },
+      ],
+    },
+  ],
+  Breadcrumb: [
+    {
+      key: 'routes',
+      name: '路由',
+      type: 'Text',
+    },
+    {
+      key: 'children',
+      name: 'children',
+      type: 'Text',
+    }
+  ]
 }
 
 export default editFields

@@ -29,6 +29,7 @@ export default function Right() {
 
   const renderField = (item: Field) => {
     const { key, name, type, ...other } = item;
+    console.log('editFields[focusComponent.type]', item);
     if (type === 'Table') {
       const Table = fields[type];
       return (
@@ -59,7 +60,8 @@ export default function Right() {
       />
     );
   };
-
+ 
+  
   return (
     <div className="w-80 overflow-y-scroll border-l border-gray-200 space-y-2 flex flex-col">
       <div className="flex-shrink-0 h-10 leading-10 px-3 text-indigo-600 border-b border-gray-200 font-medium">

@@ -90,7 +90,7 @@ export const icons = {
 }
 
 export default function Left(): ReactElement {
-  const [type, setType] = useState('basic')
+  const [type, setType] = useState('antd')
   const fields = menus.find((menu) => menu.key === type)
   console.log('menus', menus);
   console.log('fields',fields);

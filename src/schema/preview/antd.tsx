@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Table, Input, InputNumber, Radio, Form,Progress } from 'antd'
+import { Button, Table, Input, InputNumber, Radio, Form,Progress, Divider, Breadcrumb } from 'antd'
 
 const previewFields = {
   Input,
@@ -9,7 +9,9 @@ const previewFields = {
   Table,
   Form,
   'Form.Item': Form.Item,
-  Progress
+  Progress,
+  Divider,
+  Breadcrumb
 }
 
 export default previewFields

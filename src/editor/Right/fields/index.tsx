@@ -18,4 +18,5 @@ export const fields = {
   Radio,
   Select,
   TextArea: TextArea,
+  Array: Array
 };

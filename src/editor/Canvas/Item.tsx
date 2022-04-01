@@ -34,9 +34,7 @@ interface CollectedProps {
 export default function Item({ data, parentId, index }: Props) {
   const ref = useRef<HTMLDivElement | null>(null);
   const [positionDown, setPosition] = useState(true);
-  console.log('====================================');
-  console.log('data', data);
-  console.log('====================================');
+
   const state = useAppSelector((state) => state.codeTree);
   const dispatch = useAppDispatch();
   const [{ canDrop, isOver }, drop] = useDrop<DragData, {}, CollectedProps>(
@@ -186,6 +184,7 @@ export default function Item({ data, parentId, index }: Props) {
       </svg>
     </span>
   );
+  
 
   return (
     <div onClick={handleFocus} className={className} ref={ref}>

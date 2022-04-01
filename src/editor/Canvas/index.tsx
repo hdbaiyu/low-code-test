@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useAppDispatch, useAppSelector } from '../../store/hooks';
 import { append, moveCom, FieldNodeSchema } from '../../store/codeTreeSlice';
 import { CRAD } from '../ItemTypes';

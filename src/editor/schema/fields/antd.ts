@@ -10,9 +10,23 @@ const fields: FieldNode[] = [
     },
   },
   {
+    type: 'Divider',
+    module: 'antd',
+    props: {
+      type: 'horizontal',
+    },
+  },
+  {
     type: 'Input',
     module: 'antd',
     props: {},
+  },
+  {
+    type: 'Breadcrumb',
+    module: 'antd',
+    props: {
+      routes: ['/home']
+    },
   },
   {
     type: 'InputNumber',
